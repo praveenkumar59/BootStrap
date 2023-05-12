@@ -7,9 +7,7 @@
     <title>my first website</title>
     <link rel="stylesheet" href="css/bootstrap.min.css"></link>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    
-</head>
+  </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container-fluid">
@@ -18,25 +16,26 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav navbar-right">
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="https://in.tradingview.com/">Trading View</a>
+                <a class="nav-link" href="https://in.tradingview.com/" target="_blank">Trading View</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://kite.zerodha.com/">Zerodha</a>
+                <a class="nav-link" href="https://kite.zerodha.com/" target="_blank">Zerodha</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Binance</a>
+                <a class="nav-link" href="https://www.binance.com/en-IN" target="_blank">Binance</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.metatrader5.com/">Meta Trader-5</a>
+                <a class="nav-link" href="https://www.metatrader5.com/" target="_blank">Meta Trader-5</a>
               </li>
-              <div class="class">
-                <li><a href="#"><span class="fa fa-users"></span>Sign Up</a></li>
-                <li><a href="#"><span class="fa-solid fa-right-to-bracket"></span>Log In</a></li>
-              </div>
-            </ul>
+              </ul>
+              
           </div>
+          <ul class="navbar-nav" style="float: right">
+            <li><a href="#"><span class="fa fa-users"></span>Sign Up</a></li>
+            <li><a href="#"><span class="fa-solid fa-right-to-bracket"></span>Log In</a></li>
+          </ul>
         </div>
       </nav>
       <div class="container" style="margin-top: 40px;"> 
@@ -44,7 +43,7 @@
            <div class="col-md-3">
             <h4><i class="fa fa-dashboard"></i>Dash Board</h4>
             <hr>
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav ml-auto">
             <li><a href="#"><i class="fa fa-home"></i>HOME</a></li>
             <br>
             <li><a href="#"><i class="fa fa-dice"></i>PRODUCT</a></li>
@@ -71,12 +70,12 @@
             <hr>
            <div class="col-md-6"> <form action="#">
             <div class="form-group">
-                <label for="pname" class="control-label">Product Name</label>
+                <label for="pname" class="control-label">User Name</label>
                 <input type="text" class="form-control" placeholder="Enter Product Name">
             </div>
             <br>
             <div class="form-group">
-                <label for="price" class="control-label">Product price</label>
+                <label for="price" class="control-label">Product Name</label>
                 <input type="text" class="form-control" placeholder="Enter Product price">
             </div>
             <br>
